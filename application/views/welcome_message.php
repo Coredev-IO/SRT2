@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<section class="top-bar-section">
 					<!-- Right Nav Section -->
 					<ul class="right">
-						<li class="active"><a href="<?=base_url() ?>index.php/home">Inicio</a></li>
+						<li class="active"><a href="<?=base_url() ?>index.php/welcome">Inicio</a></li>
 						<li class=""><a href="<?=base_url() ?>index.php/servicios">Servicios</a></li>
 						<li class=""><a href="<?=base_url() ?>index.php/nosotros">Nosotros</a></li>
 						<li class=""><a href="<?=base_url() ?>/blog">Blog</a></li>
