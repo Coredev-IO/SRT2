@@ -14,7 +14,5 @@ class Home extends CI_Controller {
 		$data['posts'] = $this->blog->posts();
 
 		$this->load->view('home', $data);
-
-
 	}
 }

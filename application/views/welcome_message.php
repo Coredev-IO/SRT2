@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<li class=""><a href="<?=base_url() ?>index.php/servicios">Servicios</a></li>
 						<li class=""><a href="<?=base_url() ?>index.php/nosotros">Nosotros</a></li>
 						<li class=""><a href="<?=base_url() ?>/blog">Blog</a></li>
-						<li class=""><a href="<?=base_url() ?>index.php/welcome/contacto">Contacto</a></li>
+						<li class=""><a href="<?=base_url() ?>index.php/contacto">Contacto</a></li>
 					</ul>
 
 				</section>
