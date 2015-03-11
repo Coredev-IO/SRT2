@@ -33,6 +33,8 @@ class Welcome extends CI_Controller {
 
 		$query = $this->db->get();
 
-		$this->load->view('welcome_message');
+		$data['posts'] = $query->result();
+
+		$this->load->view('welcome_message', $data);
 	}
 }
