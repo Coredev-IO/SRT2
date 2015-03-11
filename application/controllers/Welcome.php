@@ -21,6 +21,10 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->helper('url');
+		$this->load->database();
+		$this->load->model('blog'); //cargamos modelo
+
+		
 		$this->load->view('welcome_message');
 	}
 }
