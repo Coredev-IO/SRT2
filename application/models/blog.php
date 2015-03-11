@@ -1,13 +1,11 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Blog extends CI_Model {
-
-	public $variable;
 
 	public function __construct()
 	{
 		parent::__construct();
-		
+
 	}
 
 	public function posts(){
@@ -15,7 +13,7 @@ class Blog extends CI_Model {
 		$this->db->from('wp_posts');
 		$this->db->where('post_status', 'publish');
 		$this->db->where('post_type', 'post');
-		$this->db->order_by("post_date", "desc"); 
+		$this->db->order_by("post_date", "desc");
 		$this->db->limit(6);
 
 		$query = $this->db->get();
@@ -25,3 +23,5 @@ class Blog extends CI_Model {
 	}
 
 }
+
+?>
